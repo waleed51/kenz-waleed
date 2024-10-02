@@ -3,19 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KanzWayScreening.API", "KanzWayScreening.API\KanzWayScreening.API.csproj", "{9F532857-6218-4FD8-8224-B1D6E547E406}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KanzWayScreening.API", "KanzWayScreening.API\KanzWayScreening.API.csproj", "{9F532857-6218-4FD8-8224-B1D6E547E406}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KanzWayScreening.Application", "KanzWayScreening.Application\KanzWayScreening.Application.csproj", "{3559A998-34F7-4536-9BF7-97647AB4DD06}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KanzWayScreening.Application", "KanzWayScreening.Application\KanzWayScreening.Application.csproj", "{3559A998-34F7-4536-9BF7-97647AB4DD06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KanzWayScreening.Domain", "KanzWayScreening.Domain\KanzWayScreening.Domain.csproj", "{FAD0344A-3CA6-42DB-8AFD-1E5CB174E698}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KanzWayScreening.Domain", "KanzWayScreening.Domain\KanzWayScreening.Domain.csproj", "{FAD0344A-3CA6-42DB-8AFD-1E5CB174E698}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KanzWayScreening.Infrastructure", "KanzWayScreening.Infrastructure\KanzWayScreening.Infrastructure.csproj", "{617C888B-706C-4C15-BEC8-18014F9AAD58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KanzWayScreening.Infrastructure", "KanzWayScreening.Infrastructure\KanzWayScreening.Infrastructure.csproj", "{617C888B-706C-4C15-BEC8-18014F9AAD58}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2243A1D4-CAD5-4E47-86DC-F1CE43E9FD9B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{887C9072-F89F-4039-81A4-C0ABD5858747}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KanzWayScreening.IntegrationTests", "KanzWayScreening.IntegrationTests\KanzWayScreening.IntegrationTests.csproj", "{261DE9AD-F883-4DE3-AC70-ACD17460E5DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KanzWayScreening.IntegrationTests", "KanzWayScreening.IntegrationTests\KanzWayScreening.IntegrationTests.csproj", "{261DE9AD-F883-4DE3-AC70-ACD17460E5DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KanzWayScreening.UnitTests", "KanzWayScreening.UnitTests\KanzWayScreening.UnitTests.csproj", "{78F86875-858B-4B8C-8472-29C5AE4B9AF8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +45,10 @@ Global
 		{261DE9AD-F883-4DE3-AC70-ACD17460E5DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{261DE9AD-F883-4DE3-AC70-ACD17460E5DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{261DE9AD-F883-4DE3-AC70-ACD17460E5DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78F86875-858B-4B8C-8472-29C5AE4B9AF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78F86875-858B-4B8C-8472-29C5AE4B9AF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78F86875-858B-4B8C-8472-29C5AE4B9AF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78F86875-858B-4B8C-8472-29C5AE4B9AF8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +59,7 @@ Global
 		{FAD0344A-3CA6-42DB-8AFD-1E5CB174E698} = {2243A1D4-CAD5-4E47-86DC-F1CE43E9FD9B}
 		{617C888B-706C-4C15-BEC8-18014F9AAD58} = {2243A1D4-CAD5-4E47-86DC-F1CE43E9FD9B}
 		{261DE9AD-F883-4DE3-AC70-ACD17460E5DE} = {887C9072-F89F-4039-81A4-C0ABD5858747}
+		{78F86875-858B-4B8C-8472-29C5AE4B9AF8} = {887C9072-F89F-4039-81A4-C0ABD5858747}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {134CFD5F-EBC6-4705-96D4-4170EA24B90B}
