@@ -54,3 +54,11 @@ KanzWayScreening
 │   │   └── Screening
 │   │       └── GetScreeningResultQueryHandlerTests.cs
 └── KanzWayScreening.sln
+
+![WhatsApp Image 2024-10-02 at 21 49 28_293ac85f](https://github.com/user-attachments/assets/0f2f900f-dc9a-4515-8c8f-4381ee96f5e9)
+
+
+## Tests 
+![image](https://github.com/user-attachments/assets/d67f4eef-72c5-49b7-b292-edce5fb829a4)
+
+![Uploading image.png…]()
