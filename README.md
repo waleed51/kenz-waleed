@@ -61,4 +61,5 @@ KanzWayScreening
 ## Tests 
 ![image](https://github.com/user-attachments/assets/d67f4eef-72c5-49b7-b292-edce5fb829a4)
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/32ec985d-3a0a-4165-9129-96ee98b8c99b)
+
